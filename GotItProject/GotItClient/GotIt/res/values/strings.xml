@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">GotIt</string>
+    <string name="test_service">Test service</string>
+    <string name="register_title">SIGN UP</string>
+    <string name="register_first_name_hint">First name</string>
+    <string name="register_last_name_hint">Last name</string>
+    <string name="register_username_hint">Desired username (for login)</string>
+    <string name="register_password_hint">Password</string>
+    <string name="register_medical_number_hint">Medical record number</string>
+    <string name="register_allow_followers">Share data with followers?</string>
+    <string name="register_radio_teen">Teen user</string>
+    <string name="register_radio_follower">Follower only</string>
+    <string name="register_ok_button">Submit</string>
+    <string name="login_title">LOGIN</string>
+    <string name="menu_sign_up">Sign up!</string>
+    <string name="menu_post_quiz">Post new quiz!</string>
+    <string name="login_username">Username</string>
+    <string name="profile_title">User Profile</string>
+    <string name="profile_change_photo">Upload image</string>
+    <string name="user_data_element_follow_button">Follow</string>
+    <string name="user_list_title">User list</string>
+    <string name="generic_follow_user">Follow user</string>
+    <string name="generic_unfollow_user">Stop following</string>
+    <string name="notifications">Notifications</string>
+    <string name="fill_quiz_send">Send the quiz!</string>
+    <string name="config_share_data">Share quizs</string>
+    <string name="config_change_alarm">Change alarms</string>
+	<string name="settings">Settings</string>
+	<string name="notification_sent_by">Sent by:</string>
+	<string name="notification_about">About:</string>
+</resources>

@@ -1,2 +1,5 @@
 # GotIt-AndroidMOOC
-Android and Spring project presented for Coursera Android Cloud Services specialization.
+Got It! Project for Coursera based Android/Spring Specialization
+
+
+Project as presented for peer review when completing Coursera Mobile Cloud Computing MOOC in February 2016.

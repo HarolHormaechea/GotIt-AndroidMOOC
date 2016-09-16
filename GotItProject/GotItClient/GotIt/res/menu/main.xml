@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+    
+    <item
+        android:id="@+id/test_service"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        android:title="@string/test_service"/>
+    <item
+        android:id="@+id/sign_up"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="@string/menu_sign_up"/>
+    <item
+        android:id="@+id/profile"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        android:title="@string/profile_title"/>
+    <item
+        android:id="@+id/user_list"
+        android:orderInCategory="4"
+        android:showAsAction="never"
+        android:title="@string/user_list_title"/>
+    
+    <item
+        android:id="@+id/notifications"
+        android:orderInCategory="5"
+        android:showAsAction="never"
+        android:title="@string/notifications"/>
+    
+    <item
+        android:id="@+id/post_quiz"
+        android:orderInCategory="6"
+        android:showAsAction="never"
+        android:title="@string/menu_post_quiz"/>
+    
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="7"
+        android:showAsAction="never"
+        android:title="@string/settings"/>
+
+</menu>

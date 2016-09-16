@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/oprofile_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/profile_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/oprofile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/oprofile_title"
+        android:adjustViewBounds="true"
+        android:maxHeight="150dp"
+        android:maxWidth="150dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/oprofile_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/oprofile_image"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/oprofile_image"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/oprofile_firstandlastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/oprofile_username"
+        android:layout_below="@+id/oprofile_username"
+        android:layout_marginTop="28dp"
+        android:maxLines="@integer/profile_max_name_lines"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/oprofile_medicalnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/oprofile_firstandlastname"
+        android:layout_below="@+id/oprofile_firstandlastname"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/oprofile_follow"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/profile_image"
+        android:layout_below="@+id/oprofile_image"
+        android:layout_marginTop="56dp"
+        android:text="@string/generic_follow_user" />
+
+    <Button
+        android:id="@+id/oprofile_unfollow"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/oprofile_follow"
+        android:layout_alignBottom="@+id/oprofile_follow"
+        android:layout_alignLeft="@+id/oprofile_medicalnumber"
+        android:layout_alignParentRight="true"
+        android:text="@string/generic_unfollow_user" />
+
+</RelativeLayout>
